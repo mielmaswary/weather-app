@@ -1,0 +1,61 @@
+html {
+    background-color: rgb(247, 245, 243);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(230, 221, 221);
+    justify-content: space-between;
+}
+
+.main-content {
+    // padding: 0 1rem;
+}
+
+h1 {
+    color: rgb(34, 31, 31);
+    margin-left: 0.5rem;
+}
+
+img {
+    width: 250px;
+}
+
+.main-content {
+    .nav-bar {
+        background-color: black;
+        padding: 0.5rem;
+    }
+    a {
+        color: blanchedalmond;
+        padding: 0.5rem;
+        text-decoration: none;
+    }
+}
+
+footer,
+header {
+    padding: 1rem;
+    background-color: rgb(21, 22, 22);
+    color: rgb(57, 217, 245);
+}
+
+input {
+    border: solid 1px #cccccc;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #888888;
+    border: 1px #888888 solid;
+    color: #cccccc;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+}

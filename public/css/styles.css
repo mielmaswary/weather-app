@@ -1,0 +1,65 @@
+html {
+  background-color: #f7f5f3;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 400px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #e6dddd;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+h1 {
+  color: #221f1f;
+  margin-left: 0.5rem;
+}
+
+img {
+  width: 250px;
+}
+
+.main-content .nav-bar {
+  background-color: black;
+  padding: 0.5rem;
+}
+
+.main-content a {
+  color: blanchedalmond;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+footer,
+header {
+  padding: 1rem;
+  background-color: #151616;
+  color: #39d9f5;
+}
+
+input {
+  border: solid 1px #cccccc;
+  padding: 8px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  background-color: #888888;
+  border: 1px #888888 solid;
+  color: #cccccc;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
