@@ -24,7 +24,7 @@ weatherForm.addEventListener('submit', (event) => {
     forecastMessageCity.textContent = 'Loading...'
     forecastMessageForecast.textContent = ''
     const location = search.value
-    fetch('http://localhost:3000/weather?adress=' + location).then((respons) => {
+    fetch('/weather?adress=' + location).then((respons) => {
         // console.log(respons)
         respons.json().then((data) => {
             if (data.error)
