@@ -9,7 +9,7 @@ const forecast = (lat, long, callback) => {
         } else if (body.error) {
             callback('Catn find locaition', undefined)
         } else {
-            callback(undefined, `Weather is: ${body.current.weather_descriptions[0]} The temperturs are: ${body.current.temperature}. It feels like ${body.current.feelslike} `)
+            callback(undefined, `Weather is: ${body.current.weather_descriptions[0]} The temperturs are: ${body.current.temperature}. It feels like ${body.current.feelslike}, And humidity is ${body.current.humidity} precent.`)
         }
 
     })
