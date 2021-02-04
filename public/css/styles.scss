@@ -2,6 +2,11 @@ html {
     background-color: rgb(247, 245, 243);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,6 +20,11 @@ body {
 h1 {
     color: rgb(34, 31, 31);
     margin-left: 0.5rem;
+}
+
+p {
+    width: 70%;
+    padding: 8px;
 }
 
 img {
